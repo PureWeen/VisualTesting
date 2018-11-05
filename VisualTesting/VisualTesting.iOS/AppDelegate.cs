@@ -25,6 +25,10 @@ namespace VisualTesting.iOS
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
 
+#if DEBUG
+            XAMLator.Server.PreviewServer.Run();
+#endif
+
             return base.FinishedLaunching(app, options);
         }
     }

@@ -15,7 +15,6 @@
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
-    <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
     <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
     <AndroidHttpClientHandlerType>Xamarin.Android.Net.AndroidClientHandler</AndroidHttpClientHandlerType>
     <NuGetPackageImportStamp>
@@ -58,6 +57,9 @@
     <PackageReference Include="Xamarin.Android.Support.v4" Version="28.0.0-preview5" />
     <PackageReference Include="Xamarin.Android.Support.v7.CardView" Version="28.0.0-preview5" />
     <PackageReference Include="Xamarin.Android.Support.v7.MediaRouter" Version="28.0.0-preview5" />
+    <PackageReference Include="XAMLator">
+      <Version>2018.11.3.7</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
@@ -96,7 +98,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\VisualTesting\VisualTesting.csproj">
-      <Project>{579C0218-FAF7-4CE6-AEED-99954C19663C}</Project>
+      <Project>{458C3F74-F3C8-4BB4-88E4-C20BE7C1258B}</Project>
       <Name>VisualTesting</Name>
     </ProjectReference>
   </ItemGroup>

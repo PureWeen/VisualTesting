@@ -47,7 +47,8 @@ namespace VisualTesting
                         {
                             Text = "Welcome To Visuals",
                             HorizontalOptions = LayoutOptions.Center,
-                            FontSize = Device.GetNamedSize (NamedSize.Large, typeof(Label))
+                            FontSize = Device.GetNamedSize (NamedSize.Large, typeof(Label)),
+                            TextColor = Color.Black
                         }
 
                     },

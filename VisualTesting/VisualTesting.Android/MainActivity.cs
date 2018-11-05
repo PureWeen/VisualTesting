@@ -20,6 +20,10 @@ namespace VisualTesting.Droid
             base.OnCreate(savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             LoadApplication(new App());
+
+#if DEBUG
+            XAMLator.Server.PreviewServer.Run();
+#endif
         }
     }
 }
