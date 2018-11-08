@@ -45,19 +45,23 @@
                     
                     <Entry Visual="Material"
                        Placeholder="Title"
+						   
+					             PlaceholderColor="Blue"
                        Text="Vintage Dress"
                        BackgroundColor="#ddd"
-                           FlexLayout.Grow="1"
+                       FlexLayout.Grow="1"
                        />
                     
                     <Entry Visual="Material"
                        Placeholder="Price"
+					             PlaceholderColor="Blue"
                        Text="$10" FlexLayout.Basis="30%"
                        BackgroundColor="#ddd"
                        />
                     
                     <Entry Visual="Material"
                        Placeholder="Location"
+					             PlaceholderColor="Blue"
                        BackgroundColor="#ddd"
                        FlexLayout.Basis="60%"
                        />
