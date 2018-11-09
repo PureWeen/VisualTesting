@@ -10,7 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="3.4.1-visual" />
+    <PackageReference Include="Xamarin.Forms" Version="3.5.0.1000973" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Images\" />

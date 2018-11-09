@@ -3,6 +3,7 @@
              xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core" 
              ios:Page.UseSafeArea="true"
              xmlns:local="clr-namespace:VisualTesting"
+			 Visual="Material"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="VisualTesting.VisualPage">
     
     <ContentPage.Content>
@@ -14,7 +15,7 @@
                     ProgressColor="#52d"
                     HeightRequest="5"/>
                 
-                <Frame Visual="Material"
+                <Frame 
                        HasShadow="true"
                        CornerRadius="0"
                        Margin="10"
@@ -33,7 +34,6 @@
                                TextColor="#666"
                                FontSize="18"/>
                         <Button Text="learn more" 
-                                Visual="Material"
                                 FontSize="18"
                                 BackgroundColor="#52d" 
                                 Margin="0,0,0,10"
@@ -43,7 +43,7 @@
                 
                 <FlexLayout Direction="Row" Margin="10" Wrap="Wrap" JustifyContent="SpaceBetween">
                     
-                    <Entry Visual="Material"
+                    <Entry
                        Placeholder="Title"
 						   
 					             PlaceholderColor="Blue"
@@ -52,14 +52,14 @@
                        FlexLayout.Grow="1"
                        />
                     
-                    <Entry Visual="Material"
+                    <Entry 
                        Placeholder="Price"
 					             PlaceholderColor="Blue"
                        Text="$10" FlexLayout.Basis="30%"
                        BackgroundColor="#ddd"
                        />
                     
-                    <Entry Visual="Material"
+                    <Entry 
                        Placeholder="Location"
 					             PlaceholderColor="Blue"
                        BackgroundColor="#ddd"
