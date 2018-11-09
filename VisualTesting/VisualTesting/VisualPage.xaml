@@ -9,7 +9,7 @@
     <ContentPage.Content>
         <ScrollView>
             
-            <StackLayout Visual="Material" Spacing="20">
+            <StackLayout Spacing="20">
                 <ProgressBar
                     x:Name="progressBar"
                     ProgressColor="#52d"
