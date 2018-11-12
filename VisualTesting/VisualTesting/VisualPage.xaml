@@ -8,7 +8,6 @@
     
     <ContentPage.Content>
         <ScrollView>
-            
             <StackLayout Spacing="20">
                 <ProgressBar
                     x:Name="progressBar"
