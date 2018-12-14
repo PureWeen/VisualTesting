@@ -21,10 +21,7 @@ namespace VisualTesting.Droid
             global::Xamarin.Forms.Forms.SetFlags("Visual_Experimental");
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             LoadApplication(new App());
-
-#if DEBUG
-            XAMLator.Server.PreviewServer.Run();
-#endif
+            
         }
     }
 }

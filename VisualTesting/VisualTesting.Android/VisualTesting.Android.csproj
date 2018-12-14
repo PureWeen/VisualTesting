@@ -48,18 +48,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Android.Support.ViewPager">
-      <Version>28.0.0-preview7</Version>
-    </PackageReference>
-    <PackageReference Include="Xamarin.Forms" Version="3.6.0.1026454" />
-    <PackageReference Include="Xamarin.Android.Support.Design" Version="28.0.0-preview7" />
-    <PackageReference Include="Xamarin.Android.Support.v7.AppCompat" Version="28.0.0-preview7" />
-    <PackageReference Include="Xamarin.Android.Support.v4" Version="28.0.0-preview7" />
-    <PackageReference Include="Xamarin.Android.Support.v7.CardView" Version="28.0.0-preview7" />
-    <PackageReference Include="Xamarin.Android.Support.v7.MediaRouter" Version="28.0.0-preview7" />
-    <PackageReference Include="XAMLator">
-      <Version>2018.11.3.7</Version>
-    </PackageReference>
+    <PackageReference Include="Xamarin.Forms" Version="3.5.0-visual" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
@@ -94,13 +83,18 @@
     <Folder Include="Resources\drawable-xhdpi\" />
     <Folder Include="Resources\drawable-xxhdpi\" />
     <Folder Include="Resources\drawable-xxxhdpi\" />
-    <Folder Include="Resources\drawable\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\VisualTesting\VisualTesting.csproj">
       <Project>{458C3F74-F3C8-4BB4-88E4-C20BE7C1258B}</Project>
       <Name>VisualTesting</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\bank.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\photo.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

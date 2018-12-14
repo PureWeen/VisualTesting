@@ -10,15 +10,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="3.6.0.1026454" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Images\" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Remove="Images\seattle.jpg" />
+    <PackageReference Include="Xamarin.Forms" Version="3.5.0-visual" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Images\seattle.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="VisualPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>

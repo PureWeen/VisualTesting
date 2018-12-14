@@ -7,21 +7,50 @@ namespace VisualTesting
 {
     public partial class VisualPage : ContentPage
     {
+        bool isVisible = false;
+        double percentage = 0.0;
+
         public VisualPage()
         {
             InitializeComponent();
+            BindingContext = this;
+        }
 
-            BackgroundColor = Color.White;
+        public double PercentageCounter
+        {
+            get { return percentage; }
+            set
+            {
+                percentage = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public double Counter => percentage * 10;
+
+        protected override void OnAppearing()
+        {
+            isVisible = true;
+
+            base.OnAppearing();
 
             Device.StartTimer(TimeSpan.FromSeconds(1), () =>
             {
-                var progress = progressBar.Progress + 0.1;
+                var progress = PercentageCounter + 0.1;
                 if (progress > 1)
                     progress = 0;
 
-                progressBar.Progress = progress;
-                return true;
+                PercentageCounter = progress;
+
+                return isVisible;
             });
+        }
+
+        protected override void OnDisappearing()
+        {
+            isVisible = false;
+
+            base.OnDisappearing();
         }
     }
 }
