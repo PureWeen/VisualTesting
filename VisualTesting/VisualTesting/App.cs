@@ -11,9 +11,11 @@ namespace VisualTesting
         {
 
             //MainPage = new NavigationPage(new MainPage());
-            MainPage = new NavigationPage(new VisualPage());
+            MainPage = new NavigationPage(new VisualPage())
+            {
+                BarBackgroundColor = Color.FromHex("#2196F3"),
+                BarTextColor = Color.White
+            };
         }
-
-
     }
 }
