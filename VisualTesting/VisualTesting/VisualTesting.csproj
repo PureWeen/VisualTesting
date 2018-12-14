@@ -13,9 +13,6 @@
     <PackageReference Include="Xamarin.Forms" Version="4.0.1.34101" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Images\seattle.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="VisualPage.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
