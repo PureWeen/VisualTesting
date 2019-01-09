@@ -41,6 +41,9 @@
                 <Button Text="Enabled" BackgroundColor="{StaticResource PrimaryColor}" BorderColor="{StaticResource SecondaryColor}" BorderWidth="1" HorizontalOptions="FillAndExpand" />
                 <Button Text="Disabled" BackgroundColor="{StaticResource PrimaryColor}" BorderColor="{StaticResource SecondaryColor}" BorderWidth="1" IsEnabled="false" HorizontalOptions="FillAndExpand" />
             </StackLayout>
+            
+            <Button Image="bank" Text="Default Enabled Button" />
+            <Button Image="bank" Text="Default Disabled Button" IsEnabled="false"  />
         </StackLayout>
     </ScrollView>
     
