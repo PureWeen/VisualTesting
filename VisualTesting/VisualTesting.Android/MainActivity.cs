@@ -18,10 +18,10 @@ namespace VisualTesting.Droid
             ToolbarResource = Resource.Layout.Toolbar;
 
             base.OnCreate(savedInstanceState);
-            global::Xamarin.Forms.Forms.SetFlags("Visual_Experimental");
+            global::Xamarin.Forms.Forms.SetFlags("Visual_Experimental", "Shell_Experimental");
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             LoadApplication(new App());
-            
+
         }
     }
 }

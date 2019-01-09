@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms" 
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+       xmlns:pages="clr-namespace:VisualTesting.Pages"
+       x:Class="VisualTesting.AppShell"
+       RouteScheme="app"
+       RouteHost="xamarin.com"
+       Route="visual"
+       Visual="Material"
+       >
+    <Shell.Resources>
+        <Style x:Key="BaseStyle" TargetType="Element">
+            <Setter Property="Shell.ShellBackgroundColor" Value="#2196F3" />
+            <Setter Property="Shell.ShellForegroundColor" Value="White" />
+            <Setter Property="Shell.ShellTitleColor" Value="White" />
+            <Setter Property="Shell.ShellDisabledColor" Value="#B4FFFFFF" />
+            <Setter Property="Shell.ShellUnselectedColor" Value="#95FFFFFF" />
+        </Style>
+    </Shell.Resources>
+    
+    <Shell.FlyoutHeaderTemplate>
+        <DataTemplate>
+            <ContentView HeightRequest="60"/>
+        </DataTemplate>
+    </Shell.FlyoutHeaderTemplate>
+    
+    
+    <ShellContent Title="ActivityIndicator" ContentTemplate="{DataTemplate pages:ActivityIndicatorsPage}" Style="{StaticResource BaseStyle}"/>
+    <ShellContent Title="Button" ContentTemplate="{DataTemplate pages:ButtonsPage}" Style="{StaticResource BaseStyle}"/>
+    <ShellContent Title="CardView" ContentTemplate="{DataTemplate pages:CardsPage}" Style="{StaticResource BaseStyle}"/>
+    <ShellContent Title="Entry" ContentTemplate="{DataTemplate pages:EntriesPage}" Style="{StaticResource BaseStyle}"/>
+    <ShellContent Title="ProgressBar" ContentTemplate="{DataTemplate pages:ProgressPage}" Style="{StaticResource BaseStyle}"/>
+    <ShellContent Title="Slider" ContentTemplate="{DataTemplate pages:SlidersPage}" Style="{StaticResource BaseStyle}"/>
+
+    
+</Shell>

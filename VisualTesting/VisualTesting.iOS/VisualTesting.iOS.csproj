@@ -160,6 +160,8 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\bank.png" />
+    <BundleResource Include="Resources\3bar.png" />
+    <BundleResource Include="Resources\3bar%402x.png" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\photo.jpg" />
