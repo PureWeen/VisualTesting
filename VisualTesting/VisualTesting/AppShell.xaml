@@ -31,7 +31,6 @@
     <ShellContent Title="Entry" ContentTemplate="{DataTemplate pages:EntriesPage}" Style="{StaticResource BaseStyle}"/>
     <ShellContent Title="ProgressBar" ContentTemplate="{DataTemplate pages:ProgressPage}" Style="{StaticResource BaseStyle}"/>
     <ShellContent Title="Slider" ContentTemplate="{DataTemplate pages:SlidersPage}" Style="{StaticResource BaseStyle}"/>
-    <ShellContent Title="Stepper" ContentTemplate="{DataTemplate pages:SteppersPage}" Style="{StaticResource BaseStyle}"/>
-
+   
     
 </Shell>
