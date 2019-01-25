@@ -10,9 +10,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="4.0.1.42870" />
+    <PackageReference Include="Xamarin.Forms" Version="4.0.1.115416" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Pages\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Pages\SteppersPage.cs" />
   </ItemGroup>
 </Project>
