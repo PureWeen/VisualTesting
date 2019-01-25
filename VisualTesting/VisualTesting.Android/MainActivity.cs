@@ -16,8 +16,9 @@ namespace VisualTesting.Droid
         {
             TabLayoutResource = Resource.Layout.Tabbar;
             ToolbarResource = Resource.Layout.Toolbar;
+			Window.AddFlags(WindowManagerFlags.Fullscreen | WindowManagerFlags.TurnScreenOn);
 
-            base.OnCreate(savedInstanceState);
+			base.OnCreate(savedInstanceState);
             global::Xamarin.Forms.Forms.SetFlags("Visual_Experimental", "Shell_Experimental");
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             LoadApplication(new App());

@@ -5,7 +5,7 @@
              x:Class="VisualTesting.Pages.EntriesPage">
     
     <ScrollView>
-        <StackLayout Spacing="20" Padding="10">
+		<StackLayout Spacing="20" Padding="10"  BackgroundColor="White">
             <!--
             TODO: this text box is basically invisible
             <Entry Placeholder="Default" HorizontalOptions="FillAndExpand" />

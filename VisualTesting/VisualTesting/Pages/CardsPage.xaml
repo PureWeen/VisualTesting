@@ -5,7 +5,7 @@
              x:Class="VisualTesting.Pages.CardsPage">
     
     <ScrollView>
-        <StackLayout Spacing="20" Padding="10">
+		<StackLayout Spacing="20" Padding="10"  BackgroundColor="White">
             <Label Text="Default" Margin="0,0,0,-10" />
             <Frame Padding="16">
                 <StackLayout Spacing="16">
