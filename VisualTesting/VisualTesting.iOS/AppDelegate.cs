@@ -24,7 +24,8 @@ namespace VisualTesting.iOS
         {
             global::Xamarin.Forms.Forms.SetFlags("Visual_Experimental", "Shell_Experimental");
             global::Xamarin.Forms.Forms.Init();
-            LoadApplication(new App());
+			global::Xamarin.Forms.FormsMaterial.Init();
+			LoadApplication(new App());
 
 
             return base.FinishedLaunching(app, options);
