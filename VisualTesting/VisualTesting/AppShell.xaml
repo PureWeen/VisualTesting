@@ -28,7 +28,9 @@
     <ShellContent Title="ActivityIndicator" ContentTemplate="{DataTemplate pages:ActivityIndicatorsPage}" Style="{StaticResource BaseStyle}"/>
     <ShellContent Title="Button" ContentTemplate="{DataTemplate pages:ButtonsPage}" Style="{StaticResource BaseStyle}"/>
     <ShellContent Title="CardView" ContentTemplate="{DataTemplate pages:CardsPage}" Style="{StaticResource BaseStyle}"/>
+    <ShellContent Title="Editors" ContentTemplate="{DataTemplate pages:Editors}" Style="{StaticResource BaseStyle}"/>
     <ShellContent Title="Entry" ContentTemplate="{DataTemplate pages:EntriesPage}" Style="{StaticResource BaseStyle}"/>
+    <ShellContent Title="Pickers" ContentTemplate="{DataTemplate pages:Pickers}" Style="{StaticResource BaseStyle}"/>
     <ShellContent Title="ProgressBar" ContentTemplate="{DataTemplate pages:ProgressPage}" Style="{StaticResource BaseStyle}"/>
 	<ShellContent Title="Slider" ContentTemplate="{DataTemplate pages:SlidersPage}" Style="{StaticResource BaseStyle}"/>
 	<ShellContent Title="Steppers" ContentTemplate="{DataTemplate pages:SteppersPage}" Style="{StaticResource BaseStyle}"/>
