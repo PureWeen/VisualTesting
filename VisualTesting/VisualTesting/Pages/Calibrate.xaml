@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="VisualTesting.Pages.Calibrate">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Spacing="20" Padding="10">
+                <BoxView HeightRequest="100" Color="Red"></BoxView>
+                <BoxView HeightRequest="100" Color="blue"></BoxView>
+                <BoxView HeightRequest="100" Color="green"></BoxView>
+                <BoxView HeightRequest="100" Color="yellow"></BoxView>
+                <BoxView HeightRequest="100" Color="Orange"></BoxView>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

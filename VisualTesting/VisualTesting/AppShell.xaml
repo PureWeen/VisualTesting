@@ -34,6 +34,7 @@
     <ShellContent Title="ProgressBar" ContentTemplate="{DataTemplate pages:ProgressPage}" Style="{StaticResource BaseStyle}"/>
 	<ShellContent Title="Slider" ContentTemplate="{DataTemplate pages:SlidersPage}" Style="{StaticResource BaseStyle}"/>
 	<ShellContent Title="Steppers" ContentTemplate="{DataTemplate pages:SteppersPage}" Style="{StaticResource BaseStyle}"/>
+    <ShellContent Title="Calibrate" ContentTemplate="{DataTemplate pages:Calibrate}" Style="{StaticResource BaseStyle}"/>
 
 
 </Shell>
