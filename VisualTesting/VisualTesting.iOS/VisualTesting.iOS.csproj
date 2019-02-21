@@ -149,9 +149,9 @@
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="4.0.1.170976" />
+    <PackageReference Include="Xamarin.Forms" Version="4.0.1.188665" />
     <PackageReference Include="Xamarin.Forms.Visual.Material">
-      <Version>4.0.1.170976</Version>
+      <Version>4.0.1.188665</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />

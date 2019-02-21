@@ -4,8 +4,10 @@
 		<ScrollView>
             <StackLayout Spacing="20" Padding="10"  >
     			<Stepper></Stepper>
-                <Stepper HeightRequest="100" WidthRequest="100"></Stepper>
-    		</StackLayout>
+				<Stepper HeightRequest="100" WidthRequest="100"></Stepper>
+				<Stepper WidthRequest="100"></Stepper>
+				<Stepper HeightRequest="100" ></Stepper>
+			</StackLayout>
         </ScrollView>
     </ContentPage.Content>
 </ContentPage>
