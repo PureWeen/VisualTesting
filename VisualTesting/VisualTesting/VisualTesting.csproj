@@ -10,8 +10,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="4.0.1.188665" />
-    <PackageReference Include="Xamarin.Forms.Visual.Material" Version="4.0.1.188665" />
+    <PackageReference Include="Xamarin.Forms" Version="4.0.1.197543" />
+    <PackageReference Include="Xamarin.Forms.Visual.Material" Version="4.0.1.197543" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Pages\" />
