@@ -48,12 +48,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="4.0.1.197543" />
+    <PackageReference Include="Xamarin.Forms" Version="4.0.1.1594" />
     <PackageReference Include="Xamarin.Forms.Visual.Material">
-      <Version>4.0.1.197543</Version>
+      <Version>4.0.1.1594</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CustomVisualRenderer.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -10,14 +10,16 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="4.0.1.197543" />
-    <PackageReference Include="Xamarin.Forms.Visual.Material" Version="4.0.1.197543" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Pages\" />
+    <PackageReference Include="Xamarin.Forms" Version="4.0.1.1594" />
+    <PackageReference Include="Xamarin.Forms.Visual.Material" Version="4.0.1.1594" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Pages\SteppersPage.cs" />
     <Compile Remove="Pages\Pickers.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Pages\CustomRenderers.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>

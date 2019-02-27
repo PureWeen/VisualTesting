@@ -23,9 +23,10 @@
             <ContentView HeightRequest="60"/>
         </DataTemplate>
     </Shell.FlyoutHeaderTemplate>
-    
-    
-    <ShellContent Title="ActivityIndicator" ContentTemplate="{DataTemplate pages:ActivityIndicatorsPage}" Style="{StaticResource BaseStyle}"/>
+
+
+	<ShellContent Title="Custom Rendereres" ContentTemplate="{DataTemplate pages:CustomRenderers}" Style="{StaticResource BaseStyle}"/>
+	<ShellContent Title="ActivityIndicator" ContentTemplate="{DataTemplate pages:ActivityIndicatorsPage}" Style="{StaticResource BaseStyle}"/>
     <ShellContent Title="Button" ContentTemplate="{DataTemplate pages:ButtonsPage}" Style="{StaticResource BaseStyle}"/>
     <ShellContent Title="CardView" ContentTemplate="{DataTemplate pages:CardsPage}" Style="{StaticResource BaseStyle}"/>
     <ShellContent Title="Editors" ContentTemplate="{DataTemplate pages:Editors}" Style="{StaticResource BaseStyle}"/>
@@ -35,6 +36,5 @@
 	<ShellContent Title="Slider" ContentTemplate="{DataTemplate pages:SlidersPage}" Style="{StaticResource BaseStyle}"/>
 	<ShellContent Title="Steppers" ContentTemplate="{DataTemplate pages:SteppersPage}" Style="{StaticResource BaseStyle}"/>
     <ShellContent Title="Calibrate" ContentTemplate="{DataTemplate pages:Calibrate}" Style="{StaticResource BaseStyle}"/>
-
 
 </Shell>
