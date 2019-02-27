@@ -21,6 +21,7 @@ namespace VisualTesting.Droid
 			base.OnCreate(savedInstanceState);
             global::Xamarin.Forms.Forms.SetFlags("Visual_Experimental", "Shell_Experimental");
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
+			//Xamarin.Forms.FormsMaterial.Init();
             LoadApplication(new App());
 
         }
