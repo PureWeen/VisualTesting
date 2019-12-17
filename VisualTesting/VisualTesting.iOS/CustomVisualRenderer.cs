@@ -15,7 +15,8 @@ namespace VisualTesting.iOS
 		protected override void OnElementChanged(ElementChangedEventArgs<Xamarin.Forms.Button> e)
 		{
 			base.OnElementChanged(e);
-			Element.Text = "I am a Custom Visual Renderer";
+			if(Element != null)
+				Element.Text = "I am a Custom Visual Renderer";
 		}
 	}
 }
