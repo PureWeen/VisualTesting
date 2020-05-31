@@ -1,7 +1,17 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Application xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="VisualTesting.App">
+<Application xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:local="clr-namespace:VisualTesting"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="VisualTesting.App">
     <Application.Resources>
         <ResourceDictionary>
+            <!-- Fonts -->
+            <FontImageSource 
+                x:Key="ButtonIcon"
+                FontFamily="FontAwesome"
+                             Glyph="{x:Static local:IconFont.BirthdayCake}"
+                             Color="White"
+                             Size="18"/>
+
             <Color x:Key="PrimaryColor">#673AB7</Color>
             <Color x:Key="SecondaryColor">#448AFF</Color>
             <Color x:Key="SecondaryTextColor">#757575</Color>

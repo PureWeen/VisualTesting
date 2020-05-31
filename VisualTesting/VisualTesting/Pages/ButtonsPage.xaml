@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:VisualTesting"
              Title="Button"
              x:Class="VisualTesting.Pages.ButtonsPage">
     
@@ -8,14 +9,14 @@
 		<StackLayout Spacing="20" Padding="10" BackgroundColor="White">
             <Label Text="Default" Margin="0,0,0,-10" />
             <StackLayout Orientation="Horizontal">
-                <Button BorderColor="Green" BorderWidth="10" Text="Enabled" HorizontalOptions="FillAndExpand" />
-                <Button BorderColor="Green" BorderWidth="20" Text="Disabled" IsEnabled="false" HorizontalOptions="FillAndExpand" />
+                <Button Text="Enabled" HorizontalOptions="FillAndExpand" />
+                <Button Text="Disabled" IsEnabled="false" HorizontalOptions="FillAndExpand" />
             </StackLayout>
 
             <Label Text="Image" Margin="0,0,0,-10" />
             <StackLayout Orientation="Horizontal">
-                <Button BorderColor="Green" BorderWidth="20"  Image="bank" Text="Enabled" HorizontalOptions="FillAndExpand" />
-                <Button BorderColor="Green" BorderWidth="20"  Image="bank" Text="Disabled" IsEnabled="false" HorizontalOptions="FillAndExpand" />
+                <Button Image="{StaticResource ButtonIcon}" Text="Enabled" HorizontalOptions="FillAndExpand"/>
+                <Button Image="{StaticResource ButtonIcon}" Text="Disabled" IsEnabled="false" HorizontalOptions="FillAndExpand" />
             </StackLayout>
 
             <Label Text="Custom Background" Margin="0,0,0,-10" />
@@ -26,24 +27,24 @@
 
             <Label Text="Custom Text" Margin="0,0,0,-10" />
             <StackLayout Orientation="Horizontal">
-                <Button Text="Enabled" TextColor="{StaticResource LightRedColor}" HorizontalOptions="FillAndExpand" />
-                <Button Text="Disabled" TextColor="{StaticResource LightRedColor}" IsEnabled="false" HorizontalOptions="FillAndExpand" />
+                <Button Text="Enabled" TextColor="#b19cd9" HorizontalOptions="FillAndExpand" />
+                <Button Text="Disabled" TextColor="#b19cd9" IsEnabled="false" HorizontalOptions="FillAndExpand" />
             </StackLayout>
 
             <Label Text="Custom Text &amp; Image" Margin="0,0,0,-10" />
             <StackLayout Orientation="Horizontal">
-                <Button Image="bank" Text="Enabled" TextColor="{StaticResource LightRedColor}" HorizontalOptions="FillAndExpand" />
-                <Button Image="bank" Text="Disabled" TextColor="{StaticResource LightRedColor}" IsEnabled="false" HorizontalOptions="FillAndExpand" />
+                <Button Image="{StaticResource ButtonIcon}" Text="Enabled" TextColor="#b19cd9" HorizontalOptions="FillAndExpand" />
+                <Button Image="{StaticResource ButtonIcon}" Text="Disabled" TextColor="#b19cd9" IsEnabled="false" HorizontalOptions="FillAndExpand" />
             </StackLayout>
 
             <Label Text="Custom Background &amp; Border" Margin="0,0,0,-10" />
             <StackLayout Orientation="Horizontal">
-                <Button Text="Enabled" BackgroundColor="{StaticResource PrimaryColor}" BorderColor="{StaticResource SecondaryColor}" BorderWidth="1" HorizontalOptions="FillAndExpand" />
-                <Button Text="Disabled" BackgroundColor="{StaticResource PrimaryColor}" BorderColor="{StaticResource SecondaryColor}" BorderWidth="1" IsEnabled="false" HorizontalOptions="FillAndExpand" />
+                <Button Text="Enabled" BackgroundColor="{StaticResource PrimaryColor}" BorderColor="#b19cd9" BorderWidth="1" HorizontalOptions="FillAndExpand" />
+                <Button Text="Disabled" BackgroundColor="{StaticResource PrimaryColor}" BorderColor="#b19cd9" BorderWidth="1" IsEnabled="false" HorizontalOptions="FillAndExpand" />
             </StackLayout>
-            
-            <Button Image="bank" Text="Default Enabled Button" />
-            <Button Image="bank" Text="Default Disabled Button" IsEnabled="false"  />
+
+            <Button Image="{StaticResource ButtonIcon}" Text="Default Enabled Button" />
+            <Button Image="{StaticResource ButtonIcon}" Text="Default Disabled Button" IsEnabled="false"  />
         </StackLayout>
     </ScrollView>
     
